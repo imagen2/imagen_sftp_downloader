@@ -35,14 +35,14 @@ overall_dirs = ["dawba/", "geolocation/","cantab/", "meta_data/", "psytools/"]
 ```
 
 
-There are three modes that help to do different things
+There are four modes that help to do different things
 ```
-mode = "dirs"   # "files" or "dirs" or "subjects"
+mode = "dirs"   # "files" or "dirs" or "subjects" or "overall"
 ```
 1. "overall" mode: download a set of given folders recursively (including all subdirectories and files)
-1. "subjects" mode: download given subject folders recursively (including all subdirectories and files)
-2. "dirs" mode: download specific subdirectories within subject folders recursively
-3. "files" mode: download specific files within specific subdirectories within subject folders
+2. "subjects" mode: download given subject folders recursively (including all subdirectories and files)
+3. "dirs" mode: download specific subdirectories within subject folders recursively
+4. "files" mode: download specific files within specific subdirectories within subject folders
 
 ```
 # directories not split by subjects:  remote_path/{time_dirs}/{overall_dirs}
