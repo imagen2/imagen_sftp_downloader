@@ -44,10 +44,6 @@ mode = "dirs"   # "files" or "dirs" or "subjects" or "overall"
 3. "dirs" mode: download specific subdirectories within subject folders recursively
 4. "files" mode: download specific files within specific subdirectories within subject folders
 
-```
-# directories not split by subjects:  remote_path/{time_dirs}/{overall_dirs}
-overall_dirs = ["dawba/", "geolocation/","cantab/", "meta_data/", "psytools/"]
-```
 
 ### ToDos
 * simple switch to download all subjects in given folders that are found on the server
