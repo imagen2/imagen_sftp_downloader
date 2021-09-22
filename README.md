@@ -5,14 +5,17 @@ You need to....
 * ...have login credentials given in a file secret.py (use secret_template.py to create it.) Caution: never push the file with your login credentials to a public github repository
 * ...know what you want to download, look at the folder structure
 
-###Prerequisites
+### Prerequisites
 * Python 3 (tested with 3.7)
 * pysftp
 
-###How-To
+### How-To
 The downloader assumes the following folder structure:
+
 ``remote_path/{time_dirs}/intermed_dir/{subjs}/{dirs}/{subj_files}``
+
 The paths need to be specified in the script, e.g.
+
 ```
 remote_path = "/data/imagen/2.7"
 time_dirs = ["BL","FU1"]
@@ -41,7 +44,7 @@ overall_mode = True  # or False
 overall_dirs = ["dawba/", "geolocation/","cantab/", "meta_data/", "psytools/"]
 ```
 
-###ToDos
+### ToDos
 * simple switch to download all subjects in given folders that are found on the server
 * better logging to check what might have gone wrong
 
