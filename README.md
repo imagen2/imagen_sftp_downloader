@@ -42,10 +42,11 @@ mode = "dirs"   # "files" or "dirs" or "subjects" or "overall"
  ```
  * logfiles are created for basic information (info_logger*) and debugging information (debug_logger*) to check if something did not work.
  
-
+ 
 ### Limitations
 * pysftp may not work properly with windows (e.g. recursive downloads may be buggy)
 * download is not super fast (own experience:  1.5GB per hour)
+
 
 ### Caution
 * not extensively tested for all use-cases, use at your own risk.
