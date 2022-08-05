@@ -33,7 +33,7 @@ mode = "dirs"   # "files" or "dirs" or "subjects" or "overall"
  * clone the repository
  * use secret_template.py to create a new file secret.py
  * enter your login information in secret.py
- * use settings_template.py to create and a new file settings.py
+ * use settings_template.py to create a new file settings.py
  * enter your local path settings and your download definitions in settings.py 
  (some examples are given in settings_template.py)
  * start the script:
